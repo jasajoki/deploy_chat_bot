@@ -1,3 +1,9 @@
 flask
-gunicorn
-scikit-learn
+pytz
+json
+string
+random
+pickle
+tensorflow
+datetime
+time
