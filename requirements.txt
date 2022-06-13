@@ -1,4 +1,5 @@
 flask
+sklearn
 pickle
 tensorflow
 datetime
