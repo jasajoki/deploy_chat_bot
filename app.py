@@ -46,7 +46,7 @@ def chat(model, input_data):
         return bot
 
 # app = Flask(__name__, template_folder='/content/drive/MyDrive/Colab Notebooks/deploy')
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/')
 # The absolute path of the directory containing PDF files for users to download
 # app.config["CLIENT_PDF"] = "/content/drive/MyDrive/Colab Notebooks/deploy"
 resultChat = []

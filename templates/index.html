@@ -1,6 +1,6 @@
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/jquery.min.js"></script>
+<link href="https://ik.imagekit.io/webid/chatbot/bootstrap.min_cWi-ps7v6.css?ik-sdk-version=javascript-1.4.3&updatedAt=1655084116535" rel="stylesheet" id="bootstrap-css">
+<script src="https://ik.imagekit.io/webid/chatbot/bootstrap.min_g8-I659Mn.js?ik-sdk-version=javascript-1.4.3&updatedAt=1655084116667"></script>
+<script src="https://ik.imagekit.io/webid/chatbot/jquery.min_Jv4owLbgh.js?ik-sdk-version=javascript-1.4.3&updatedAt=1655084116904"></script>
 <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
@@ -15,7 +15,7 @@
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <script src="{{url_for('static', filename='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')}}"></script>
 
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script> -->
 		<script src="{{url_for('static', filename='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js')}}"></script>
@@ -44,7 +44,7 @@
 	  }
 	  .msg_card_body{
 		  overflow-y: auto;
-		  background-image: url('../assets/img/v11_35.png');
+		  background-image: url('https://ik.imagekit.io/webid/chatbot/v11_35_0voJETSiv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655083949475');
 	  }
 	  .card-header{
 		  border-radius: 15px 15px 0 0 !important;
@@ -194,9 +194,9 @@
 	  font-size: 10px;
 	  }
 	  .msg_time_send{
-	  position: absolute;
+	  position: relative;
 	  right:0;
-	  bottom: -15px;
+	  bottom: -20px;
 	  color: rgba(255,255,255,0.5);
 	  font-size: 10px;
 	  }
@@ -256,7 +256,7 @@
 						<div class="card-header msg_head">
 							<div class="d-flex bd-highlight">
 								<div class="img_cont">
-									<img src="../assets/img/v10_33.png" class="user_img">
+									<img src="https://ik.imagekit.io/webid/chatbot/v10_33_xtBdWMtiS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655083948215" class="user_img">
 									<span class="online_icon"></span>
 								</div>
 								<div class="user_info">
@@ -270,7 +270,7 @@
 							<!-- For loop logic of jinja template -->
 							<div class="d-flex justify-content-start mb-4">
 								<div class="img_cont_msg">
-									<img src="../assets/img/v12_45.png" class="rounded-circle user_img_msg">
+									<img src="https://ik.imagekit.io/webid/chatbot/v12_45_fE5dqqzDN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655083949775" class="rounded-circle user_img_msg">
 								</div>
 								<div class="msg_cotainer">
                   					Helo! Ini Kadekbot. Ada yang bisa dibantu?
@@ -281,7 +281,7 @@
 							<div class="d-flex justify-content-end mb-4">
 								<div class="msg_cotainer_send">
 									{{chat[i]}}
-									<span class="msg_time_send">{{time[i+1]}}</span>
+									<!-- <span class="msg_time_send">{{time[i+1]}}</span> -->
 								</div>
 								<div class="img_cont_msg">
 							<img src="https://images.tokopedia.net/img/cache/700/product-1/2016/3/8/2754744/2754744_ced37b0e-8cca-461c-8830-d61a88adc471.jpg" class="rounded-circle user_img_msg">
@@ -289,7 +289,7 @@
 							</div>
 							<div class="d-flex justify-content-start mb-4">
 								<div class="img_cont_msg">
-									<img src="../assets/img/v12_45.png" class="rounded-circle user_img_msg">
+									<img src="https://ik.imagekit.io/webid/chatbot/v12_45_fE5dqqzDN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655083949775" class="rounded-circle user_img_msg">
 								</div>
 								<div class="msg_cotainer">
 									{{bot[i]}}
