@@ -1,6 +1,4 @@
 flask
-string
-random
 pickle
 tensorflow
 datetime
