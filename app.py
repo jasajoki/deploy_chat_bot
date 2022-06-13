@@ -9,7 +9,7 @@ import time
 from datetime import datetime
 import pytz
 from flask import Flask, request, render_template, send_from_directory
-from flask_ngrok import run_with_ngrok
+# from flask_ngrok import run_with_ngrok
 
 with open("Dataset Kampus Merdeka.json") as data_file:
     data = json.load(data_file)
@@ -55,7 +55,7 @@ resultTime = []
 now = datetime.now(pytz.timezone('Asia/Jakarta'))
 time = now.strftime("%I:%M:%S %p %Z %a, %d %b %Y")
 resultTime.append(time)
-run_with_ngrok(app)   
+# run_with_ngrok(app)   
 @app.route("/")
 def home():
     resultChat.clear()
